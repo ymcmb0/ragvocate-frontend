@@ -12,7 +12,6 @@ A professional Next.js frontend for a legal RAG (Retrieval Augmented Generation)
 - **Professional Theme**: Navy and gold color scheme suitable for legal professionals
 
 ## FastAPI Backend Integration
-
 This frontend is designed to work with a FastAPI backend. Your backend should provide these endpoints:
 
 ### Required API Endpoints
