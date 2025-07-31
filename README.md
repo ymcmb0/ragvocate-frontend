@@ -17,6 +17,9 @@ This frontend is designed to work with a FastAPI backend. Your backend should pr
 
 ### Required API Endpoints
 
+
+
+
 ```python
 # FastAPI Backend Example Structure
 
