@@ -85,6 +85,7 @@ export default function LegalRAGAssistant() {
         updatedAt: new Date(),
         messageCount: 1,
         searchScope: 'both',
+        routeMode: 'default',
         messages: [
           {
             id: '1',
@@ -214,6 +215,7 @@ const handleSendMessage = async () => {
       updatedAt: new Date(),
       messageCount: 1,
       searchScope: searchScope,
+      routeMode: 'default',
       messages: [
         {
           id: Date.now().toString(),
@@ -324,10 +326,10 @@ const handleSendMessage = async () => {
           <div className="w-80 bg-white border-r border-slate-200 flex flex-col">
             <div className="flex-1 flex flex-col p-4 space-y-4 overflow-hidden">
               <SearchScopeSelector
-                selectedScope={searchScope}
+                selectedSource={searchScope}
                 onRouteChange={setRouteMode}
                 selectedRoute={routeMode}
-                onScopeChange={handleScopeChange}
+                onSourceChange={handleScopeChange}
                 precedentCount={precedentCount}
                 statuteCount={statuteCount}
               />
