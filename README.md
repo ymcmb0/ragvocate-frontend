@@ -18,7 +18,6 @@ This frontend is designed to work with a FastAPI backend. Your backend should pr
 
 
 
-
 ```python
 # FastAPI Backend Example Structure
 
